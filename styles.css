@@ -1,49 +1,52 @@
 .title {
-    text-align: center;
-    background-color: #095727;
-    color: rgb(255, 145, 72);
+  text-align: center;
+  background-color: #095727;
+  color: rgb(255, 145, 72);
 }
 
-.centerContent{ 
-    width: 60%;
-    text-align: center;
-    
+.centerContent {
+  width: 60%;
+  text-align: center;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(116, 180, 159);
+  display: flex;
+  justify-content: center;
+  background-color: rgb(116, 180, 159);
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: Arial, Helvetica, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 
 .intro__header {
-    color: rgb(255, 255, 255);
-    background-color: gray;
-}
- 
-#picOfSonia {
-    width: 30%;
-    height: 30%;
-    border-radius: 50px 50px 50px 50px;
+  color: rgb(255, 255, 255);
+  background-color: gray;
 }
 
-.record__header{
-    color: rgb(116, 31, 1);
+#picOfSonia {
+  width: 30%;
+  height: 30%;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.record__header {
+  color: rgb(116, 31, 1);
 }
 
 table {
- text-align: left;
-  }
+  text-align: left;
+}
 
-  ul {
-      text-align: left;
-  }
+ul {
+  text-align: left;
+}
 
 .intro__text {
-      text-align: justify;
-  }
+  text-align: justify;
+}
