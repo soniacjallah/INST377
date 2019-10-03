@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Sample HTML Demonstration Page</title>
+    <style>
+      .first_container {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      .third_container {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      .pageContent {
+        width: 60%;
+        height: 100vh;
+        background: grey;
+        text-align: center;
+      }
+
+      .page {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+      }
+
+      .second_container {
+        background: pink;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .textbox_c {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .textbox_a {
+        height: 100px;
+        width: 350px;
+        margin: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background-color: red;
+      }
+
+      .textbox_b {
+        height: 100px;
+        width: 350px;
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background-color: lightblue;
+      }
+
+      .head{
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body class="page">
+    <div class="pageContent">
+      <div class="head" id="start">
+        <h1>Sample Header</h1>
+        <a href="" class="link">anchor tag to nowhere</a>
+      </div>
+      <div class="second_container">
+        <div class="textbox_c">
+          hello
+        </div>
+      </div>
+      <div class="first_container">
+        <div class="textbox_a">
+          click me I'm great
+        </div>
+        <div class="textbox_a"></div>
+      </div>
+      <div class="third_container">
+        <div class="textbox_b">
+          <p>
+            World #2
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
