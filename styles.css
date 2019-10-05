@@ -1,18 +1,102 @@
-.title {
-  text-align: center;
-  background-color: #095727;
-  color: rgb(255, 145, 72);
-}
+/*-------------------New and Improved Code--------------------*/
 
-.centerContent {
-  width: 60%;
-  text-align: center;
-}
-
-body {
+.page__container {
   display: flex;
   justify-content: center;
-  background-color: rgb(116, 180, 159);
+  align-content: center;
+  flex-direction: row;
+  flex-flow: wrap;
+  background-image: url("BG__seashore.jpg");
+  background-attachment: fixed;
+}
+
+.intro__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro__header {
+  color: rgb(56, 76, 119);
+}
+
+.intro__text {
+  text-align: justify;
+  margin: 10px;
+}
+
+.title__container {
+  display: flex;
+
+  background-color: palevioletred;
+  color: rgb(56, 76, 119);
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  text-shadow: 4px 4px 4px burlywood;
+  border-style: double;
+}
+
+.title__name {
+  color: rgb(226, 120, 156);
+  background-color: rgb(83, 107, 160);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  text-shadow: -1px 0 rgb(117, 98, 72), 0 1px rgb(117, 98, 72),
+    1px 0 rgb(117, 98, 72), 0 -1px rgb(117, 98, 72);
+  margin: auto;
+  margin-left: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-style: double;
+}
+
+.title__description {
+  margin: auto;
+  margin-left: 0;
+  margin-top: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.page__container {
+  display: flex;
+  flex-flow: wrap;
+  margin: 0;
+}
+
+.page__content {
+  width: 60%;
+}
+
+.experience__header {
+  color: rgb(56, 76, 119);
+  margin-top: 50px;
+  border-bottom-style: dotted;
+  text-align: center;
+}
+
+.record__header {
+  color: rgb(240, 113, 155);
+  text-shadow: 4px 4px 4px rgb(56, 76, 119);
+}
+
+#picOfSonia {
+  width: 30%;
+  height: 30%;
+  border-radius: 300px;
+  margin: auto;
+  border-style: dotted;
+  color: rgb(56, 76, 119);
+}
+
+ul,
+table {
+  text-align: left;
 }
 
 h1,
@@ -22,31 +106,4 @@ h4,
 h5,
 h6 {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.intro__header {
-  color: rgb(255, 255, 255);
-  background-color: gray;
-}
-
-#picOfSonia {
-  width: 30%;
-  height: 30%;
-  border-radius: 50px 50px 50px 50px;
-}
-
-.record__header {
-  color: rgb(116, 31, 1);
-}
-
-table {
-  text-align: left;
-}
-
-ul {
-  text-align: left;
-}
-
-.intro__text {
-  text-align: justify;
 }
