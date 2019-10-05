@@ -7,7 +7,8 @@
   flex-direction: row;
   flex-flow: wrap;
   background-image: url("BG__seashore.jpg");
-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
   margin: 0;
 }
 
@@ -50,7 +51,7 @@ background-size: cover;
   padding-left: 30px;
   padding-right: 30px;
   border-style: double;
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   text-shadow: 2px 2px 2px rgb(0, 183, 255), -2px -2px 2px rgb(56, 76, 119);
 }
 
@@ -64,7 +65,7 @@ background-size: cover;
 
 .page__content {
   width: 60%;
-  background-color:rgba(216, 112, 147, 0.349);
+  background-color: rgba(216, 112, 147, 0.349);
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -87,8 +88,8 @@ background-size: cover;
   height: 30%;
   border-radius: 300px;
   margin: auto;
-  border-style: ridge;
-  color:  rgb(240, 113, 155);
+  border-style: dotted;
+  color: rgb(240, 113, 155);
 }
 
 ul,
