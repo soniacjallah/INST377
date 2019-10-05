@@ -8,6 +8,7 @@
   flex-flow: wrap;
   background-image: url("BG__seashore.jpg");
   background-attachment: fixed;
+  font-family: monospace;
 }
 
 .intro__container {
@@ -20,6 +21,7 @@
 
 .intro__header {
   color: rgb(56, 76, 119);
+  text-shadow: 2px 2px 2px rgb(240, 113, 155);
 }
 
 .intro__text {
@@ -60,7 +62,6 @@
   margin-top: 0;
   padding-left: 30px;
   padding-right: 30px;
-
 }
 
 .page__container {
@@ -71,6 +72,8 @@
 
 .page__content {
   width: 60%;
+  background-color: rgb(226, 120, 156, .50);
+  padding: 25px;
 }
 
 .experience__header {
@@ -78,6 +81,7 @@
   margin-top: 50px;
   border-bottom-style: dotted;
   text-align: center;
+  text-shadow: 2px 2px 2px rgb(240, 113, 155);
 }
 
 .record__header {
@@ -91,8 +95,9 @@
   border-radius: 300px;
   margin: auto;
   border-style: dotted;
-  color: rgb(56, 76, 119);
+  color:  rgb(240, 113, 155);
 }
+
 
 ul,
 table {
